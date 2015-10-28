@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
 }
 
-.navbar {
+#navbar {
     width: 100%;
     height: 70px;
     margin-bottom: 10px;
@@ -14,54 +14,54 @@ body {
     margin-bottom: 30px;
 }
 
-.navbar a {
+#navbar a {
     text-decoration: none;
     color: black;
 }
 
-.navbar ul {
+#navbar ul {
     height: 30px;
     padding: 20px;
     margin: 0;
 }
 
-.navbar li {
+#navbar li {
     list-style: none;
     display: inline;
 }
 
-.logo {
+#logo {
     width: 30%;
     float: left;
 }
 
-.logo i {
+#logo i {
     font-size: 15px;
     margin-left: 10px;
 }
 
-.logo i:hover {
+#logo i:hover {
     color: deeppink;
 }
 
-.doggystyle a:hover {
+#doggystyle a:hover {
     color: deeppink;
 }
 
-.menu {
+#menu {
     width: 70%;
     float: right;
 }
 
-.menu a:hover {
+#menu a:hover {
     color: deeppink;
 }
 
-.menu li {
+#menu li {
     margin-right: 25px;
     float: right;
 }
 
-.content {
+#content {
     margin-top: 
 }
