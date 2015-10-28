@@ -63,5 +63,14 @@ body {
 }
 
 #content {
-    margin-top: 
+    position: relative;
+    top: 130px;
+    height: 500px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
+
+#company-logo {
+    text-align: center
+}
+
