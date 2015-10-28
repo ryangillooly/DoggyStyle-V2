@@ -11,7 +11,8 @@ body {
     font-family: fantasy;
     font-size: 21px;
     box-shadow: 0px 0px 20px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;*/
+    background-color: white;
 }
 
 #navbar a {
@@ -63,11 +64,10 @@ body {
 }
 
 #content {
-    position: relative;
-    top: 130px;
     height: 500px;
     margin-left: 12%;
     margin-right: 12%;
+    padding-top: 10%;
 }
 
 #company-logo {
