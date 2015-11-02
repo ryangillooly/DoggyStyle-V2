@@ -17,7 +17,7 @@ body {
 #navbar-ul-container {
     margin-right: auto;
     margin-left: auto;
-    width: 1000px;
+    width: 30em;
 }
 
 #navbar a {
@@ -28,7 +28,7 @@ body {
 #navbar ul {
     height: 30px;
     padding: 20px;
-    width: 960px;
+    width: 28em;
     margin-right: auto;
     margin-left: auto;
     margin: 0;
@@ -86,6 +86,9 @@ body {
 #col-header-one {
     text-align: center;
     font-family: 'Niconne', cursive;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25em;
 }
 
 #col-header-one img {

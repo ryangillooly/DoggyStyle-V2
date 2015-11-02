@@ -42,6 +42,7 @@ body {
 #logo {
     width: 30%;
     float: left;
+    position: absolute;
 }
 
 #logo i {
@@ -60,6 +61,8 @@ body {
 #menu {
     width: 70%;
     float: right;
+    padding-right: 10%;
+    position: fixed;
 }
 
 #menu a:hover {
@@ -112,10 +115,12 @@ body {
 }
 
 #left-col p {
+    padding-left: 6%;
     font-size: 20px;
     font-family: sans-serif;
     font-style: oblique;
-    float: right;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #right-col {
@@ -125,6 +130,10 @@ body {
 }
 
 #right-col img {
-    float: right;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 6%;
 }
 
