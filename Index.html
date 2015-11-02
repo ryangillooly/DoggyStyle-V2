@@ -3,41 +3,62 @@
         Ryan Gillooly
     </title>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <link href="/CSS/Homepage.css" type="text/css" rel="stylesheet"/>
-        <link href="/CSS/Font-Awesome/css/font-awesome.css" type="text/css" rel="stylesheet"/>
-        <link href="/CSS/Hover-master/css/hover.css" type="text/css" rel="stylesheet"/>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./CSS/HomePage/screen_style.css"/>
+        <link rel="stylesheet" type="text/css" href="./CSS/HomePage/screen_layout_large.css"/>
+        <link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href="./CSS/HomePage/screen_layout_medium.css"/>
+        <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="./CSS/HomePage/screen_layout_small.css"/>
+
+        
+        <link href="./CSS/Font-Awesome/css/font-awesome.css" type="text/css" rel="stylesheet"/>
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        
     </head>
     <body>
-        <div id="navbar">
-            <div id="col-navbar">
+        <div id="page">
+            <nav>
                 <ul>
-                    <div id="logo">
-                        <li id="doggystyle"><a href="/Index.html">Doggy Style</a></li>
+                    <div class="logo">
+                        <li id="doggystyle"><a href="./Index.html">Doggy Style</a></li>
                         <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     </div>
-                    <div id="menu">
+                    <div class="menu">
                         <li><a href="#">Reviews</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Book Now</a></li>
                         <li><a href="#">Contact</a></li>
                     </div>
                 </ul>
-            </div>
-</div>
-        <div id="content-page">
+            </nav>
             <div id="content-section-one">
                 <div id="col-header-one">
                     <h1>Welcome to DoggyStyleSalon.co.uk</h1>
-                    <img src="/IMAGES/Icon.png">
+                    <img src="./IMAGES/Icon.png">
                 </div>
             </div>
+            <article>
+                <p>DoggyStyle Salon was founded in 2008 by myself...Carol Gillooly. I continuely provide extremely high quality service with many customers per week...and this is only part time! I work from my converted garage, which is a great move for saving money etc...</p>
+            </article>
             <div id="content-section-two">
-               <!-- <img src="/IMAGES/section-one.png"> -->
+                <div class="col-content-img">
+                    <img src="./IMAGES/lhasa1.jpg" width="100px" height="100px">
+                </div>
+                <div class="col-content-text">
+                    <p>This was when little Milly got her first hair cut - can instantly see the differenve!</p>
+                </div>
             </div>
-</div>
-        <!-- <div id="footer"></div> -->
+            <div id="content-section-three">
+                <div class="col-content-text">
+                    <p>Here is another picture of little Lucky - He has actually grown up so much! Little bearded cut! Beautiful!</p>
+                </div>
+                <div class="col-content-img">
+                    <img src="./IMAGES/lhasa2.jpg" width="100px" height="100px">
+                </div>
+            </div>
+            <footer>
+                &copy; DoggyStyleSalon
+            </footer>
+        </div>
     </body>
 </html>
