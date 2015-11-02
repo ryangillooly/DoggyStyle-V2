@@ -14,10 +14,10 @@ body {
     background-color: white;
 }
 
-#navbar-ul-container {
+#col-navbar {
     margin-right: auto;
     margin-left: auto;
-    width: 1000px;
+    width: 960px;
 }
 
 #navbar a {
@@ -67,13 +67,13 @@ body {
 }
 
 #menu li {
-    margin-left: 25px;
+    margin-right: 25px;
     float: right;
 }
 
 #content-section-one {
     height: 120px;
-    width: 60em;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6em;
@@ -92,42 +92,9 @@ body {
     margin-bottom: 4%;
 }
 
-#content-section-two {
-    margin-top: 45px;
-    height: 23em;
-    
-}
-
-#section-two-col {
-    height: 100%;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#left-col {
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-#left-col p {
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: oblique;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#right-col {
-    width: 50%;
-    height: 100%;
-    float: right;
-}
-
-#right-col img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+#content-section-two img {
+    margin-top: 30px;
+    width: 300px;
+    height: 74vh
 }
 
