@@ -17,7 +17,7 @@ body {
 #navbar-ul-container {
     margin-right: auto;
     margin-left: auto;
-    width: 1000px;
+    width: 38.5em;
 }
 
 #navbar a {
@@ -28,7 +28,7 @@ body {
 #navbar ul {
     height: 30px;
     padding: 20px;
-    width: 960px;
+    width: 36.9em;
     margin-right: auto;
     margin-left: auto;
     margin: 0;
@@ -86,6 +86,9 @@ body {
 #col-header-one {
     text-align: center;
     font-family: 'Niconne', cursive;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25em;
 }
 
 #col-header-one img {
@@ -112,7 +115,6 @@ body {
 }
 
 #left-col p {
-    padding-left: 6%;
     font-size: 20px;
     font-family: sans-serif;
     font-style: oblique;
@@ -127,10 +129,8 @@ body {
 }
 
 #right-col img {
-    width: 70%;
-    height: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 6%;
 }
 
