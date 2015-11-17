@@ -84,7 +84,7 @@ nav a {
 header {
     height: 394px; 
     padding-top: 5.5em;
-    background: white url(./images/top_dogs.png) no-repeat center bottom;
+    background: white url(../images/top_dogs.png) no-repeat center bottom;
     background-size: contain;
     position: relative;
 }
