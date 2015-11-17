@@ -81,7 +81,7 @@ body {
     float: right;
 }
 
-#content-section-one {
+#section-one-content {
     height: 313px;
     margin-left: auto;
     margin-right: auto;
@@ -101,11 +101,9 @@ body {
    /* width: 25em; */
 }
 
-
-
-#content-section-two {
+#section-two-content {
     height: 22em;
-        width: 100%;
+    width: 100%;
     background-color: #439799;
 }
 
@@ -118,7 +116,6 @@ body {
 }
 
 #section-two-left-col {
-    width: 100%;
     height: 100%;
     width: 100%;
     float: left;
@@ -131,7 +128,7 @@ body {
     float: right;
 }
 
-#content-section-three {
+#section-three-content {
     height: 22em;
     background-color: white;
     width: 100%;
@@ -139,13 +136,13 @@ body {
 
 #section-three-container {
     height: 100%;
-    width: 960px;
+    width: 100%;;
     margin-left: auto;
     margin-right: auto;
 }
 
 #section-three-left-col {
-    width: 50%;
+    width: 100%;
     height: 100%;
     float: left;
     color: #439799;
@@ -157,7 +154,7 @@ body {
     float: right;
 }
 
-#content-section-four {
+#section-four-content {
     height: 22em;
     width: 100%;
     background-color: #439799;
@@ -165,13 +162,13 @@ body {
 
 #section-four-container {
     height: 100%;
-    width: 960px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #section-four-left-col {
-    width: 50%;
+    width: 100%;
     height: 100%;
     float: left;
     color: white;
