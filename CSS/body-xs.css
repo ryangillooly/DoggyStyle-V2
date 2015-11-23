@@ -133,7 +133,6 @@ body {
 }
 
 
-
 #fixed-nav #nav-right {
     display: none;
     padding: 0;
@@ -143,9 +142,11 @@ body {
 
 #list-button {
     margin-top: 14px;
-    display: block;
 }
 
+#fixed-nav #button-container {
+    text-align: right;
+}
 
 #fixed-nav #nav-right li {
     margin-left: 25px;
@@ -309,4 +310,8 @@ footer p{
     background-color: forestgreen;
     height: 258px;
     margin-bottom: -104px
+}
+
+#button-container {
+    
 }
