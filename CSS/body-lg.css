@@ -128,34 +128,22 @@ body {
 #fixed-nav #nav-left {
     padding: 0;
     padding-left: 10px;
-    padding-top: 1.5%;
+    padding-top: 16px;
 }
 
 
-@media(min-width: 50px) {
-    #fixed-nav #nav-right {
+#fixed-nav #nav-right {
+    text-align: center;
+    display: inherit;
+    padding: 0;
+    padding-right: 10px;
+    padding-top: 16px;
+}
+
+#list-button {
     display: none;
-    }
-    
-    #list-button {
-        display: inline;
-        margin-top: 13px;
-    }
-    
 }
 
-@media(min-width: 660px) {
-    #fixed-nav #nav-right {
-        display: inherit;
-        padding: 0;
-        padding-right: 10px;
-        padding-top: 1.5%;
-    }
-    
-    #list-button {
-        display: none;
-    }
-}
 
 #fixed-nav #nav-right li {
     margin-left: 25px;

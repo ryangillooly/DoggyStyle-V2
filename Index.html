@@ -5,8 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <!-- Imported CSS -->
         <link href="./CSS/Imported_CSS/Font-Awesome/css/font-awesome.css" type="text/css" rel="stylesheet"/>
-        <link href="./CSS/body.css" type="text/css" rel="stylesheet"/>
         <link href="./CSS/bootstrap-master/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        
+        
+        <!-- Media Queried CSS -->
+        <link media="(min-width: 1200px)"                        href="./CSS/body-lg.css"  rel="stylesheet">
+        <link media="(min-width: 992px) and (max-width: 1199px)" href="./CSS/body-md.css"  rel="stylesheet">
+        <link media="(min-width: 770px) and (max-width: 991px)"  href="./CSS/body-sm.css"  rel="stylesheet">
+        <link media="(min-width: 50px)  and (max-width: 769px)"  href="./CSS/body-xs.css"  rel="stylesheet">
+        
+        
         <!-- Imported JS/JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="./CSS/bootstrap-master/dist/js/bootstrap.js"></script>
@@ -44,18 +52,18 @@
               
             <nav id="fixed-nav" class="container-fluid">
                 <ul class="col-lg-2 col-lg-offset-2
-                           col-md-2 col-md-offset-2
-                           col-sm-3 col-sm-offset-1 
-                           col-xs-4" 
+                           col-md-3
+                           col-sm-3 
+                           col-xs-6" 
                     id="nav-left">
                     <li class="font-niconne"><a title="Doggy Style" href="#">Doggy Style</a></li>
                     <li class="font-niconne"><a title="Facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
                     <li class="font-niconne"><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
                 </ul>
-                <ul class="col-lg-5 col-lg-offset-2
-                           col-md-6 col-md-offset-2
-                           col-sm-7 col-sm-offset-1
-                           col-xs-8" 
+                <ul class="col-lg-6 col-lg-offset-2
+                           col-md-6 col-md-offset-3
+                           col-sm-7 col-sm-offset-2
+                           col-xs-9" 
                     id="nav-right">
                     <li class="font-niconne"><a title="Services" href="#">Services</a></li>
                     <li class="font-niconne"><a title="Gallery" href="#">Gallery</a></li>
@@ -63,7 +71,7 @@
                     <li class="font-niconne"><a title="Resources" href="#">Resources</a></li>
                 </ul>
                 
-                <button id="list-button" type="button" class="col-xs-offset-6 btn-primary btn-lg">
+                <button id="list-button" type="button" class="col-xs-offset-10 btn-primary btn-lg">
                     <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
                 </button>
                 
