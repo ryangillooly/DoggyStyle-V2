@@ -136,6 +136,12 @@ body {
     #fixed-nav #nav-right {
     display: none;
     }
+    
+    #list-button {
+        display: inline;
+        margin-top: 13px;
+    }
+    
 }
 
 @media(min-width: 660px) {
@@ -144,6 +150,10 @@ body {
         padding: 0;
         padding-right: 10px;
         padding-top: 1.5%;
+    }
+    
+    #list-button {
+        display: none;
     }
 }
 
