@@ -140,7 +140,11 @@ body {
     padding-top: 16px;
 }
 
+
+
 #list-button {
+    background-color: white;
+    color: black;
     margin-top: 14px;
 }
 
