@@ -2,77 +2,102 @@
     <head>
         <title>Ryan Gillooly</title>
         <!-- ViewPort -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <!-- Imported CSS -->
         <link href="./CSS/Imported_CSS/Font-Awesome/css/font-awesome.css" type="text/css" rel="stylesheet"/>
         <link href="./CSS/body.css" type="text/css" rel="stylesheet"/>
+        <link href="./CSS/bootstrap-master/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="/SlickNav-master/dist/slicknav.css" type="text/css" rel="stylesheet">
+        <!-- Imported JS/JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="./CSS/bootstrap-master/dist/js/bootstrap.js"></script>
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Spinnaker' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>   
     </head>
     <body>
-        <div id="page">
-            
+      <!--  <div id="page"> -->
+        
+        
 <!------------------ NAVIGATION BAR --------------------------------------------------------------->
             
+              
+            <nav id="non-fixed-nav" class="container-fluid">
+                <div id="non-fixed-container">
+                    
+                    <h1 id="welcomeBanner" class="col-lg-12 font-pacifico">DoggyStyleSalon</h1>
+                    
+                    <p class="col-lg-12">the best service by miles</p>
+                    
+                    <ul id="nav-right" class="col-lg-12">
+                        <li class="font-niconne"><a title="Services" href="#">Services</a></li>
+                        <li class="font-niconne"><a title="Gallery" href="#">Gallery</a></li>
+                        <li class="font-niconne"><a title="Contact" href="#">Contact</a></li>
+                        <li class="font-niconne"><a title="Resources" href="#">Resources</a></li>
+                    </ul>
+                </div>
+            </nav>  
+
             
+<!------------------ FIXED NAVIGATION BAR --------------------------------------------------------------->
             
-            <nav>
-                <ul id="nav-left">
+              
+            <nav id="fixed-nav" class="container-fluid">
+                <ul class="col-lg-2 col-lg-offset-2
+                           col-md-2 col-md-offset-2
+                           col-sm-3 col-sm-offset-1
+                           col-xs-4" 
+                    id="nav-left">
                     <li class="font-niconne"><a title="Doggy Style" href="#">Doggy Style</a></li>
                     <li class="font-niconne"><a title="Facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
                     <li class="font-niconne"><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
                 </ul>
-                <ul id="nav-right">
+                <ul class="col-lg-5 col-lg-offset-2
+                           col-md-6 col-md-offset-2
+                           col-sm-7 col-sm-offset-1
+                           col-xs-8" 
+                    id="nav-right">
                     <li class="font-niconne"><a title="Services" href="#">Services</a></li>
                     <li class="font-niconne"><a title="Gallery" href="#">Gallery</a></li>
                     <li class="font-niconne"><a title="Contact" href="#">Contact</a></li>
                     <li class="font-niconne"><a title="Resources" href="#">Resources</a></li>
                 </ul>
-            </nav>
+            </nav>  
             
-            
-            
+    
 <!------------------ WELCOME ------------------------------------------------------------------------>
             
-            
-            
-            <header>
+             
+            <header class="container-fluid">
                 <h1 class="font-niconne">Welcome to DoggyStyleSalon.co.uk</h1>
                 <img id="welcomeUnderline" src="./Images/icon.png">
-              <!--  <img id="fourDogs"         src="./IMAGES/top_dogs.png"> -->
             </header>
             
-
             
 <!------------------ SECTION ONE ------------------------------------------------------------------->
             
             
             
             
-            <section class="one">
-                <aside>
-                    <div class="content">
-                        <h1 class="font-niconne">1st Section</h1>
-                        <p class="font-spinnaker">Gonna have a little bit of content in here!</p>
-                    </div>
+            <section class="container-fluid" id="section-one">
+
+                <aside class="col-md-4" id="aside-one">
+                    <h1 class="font-niconne">Section Uno</h1>
+                    <p class="font-spinnaker">It is a long established fact that a reader will be distracted by the readable fact that a reader will be distracted by the readable fact that a reader will be distracted by the readable fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </aside>
+
+
+                <aside class="col-md-4" id="aside-two">
+                    <h1 class="font-niconne">Section Deux</h1>
+                    <p class="font-spinnaker">It is a long established fact that a wddwdwddw reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </aside>
+
+                <aside class="col-md-4" id="aside-three">
+                    <h1 class="font-niconne">Section Tres</h1>
+                    <p class="font-spinnaker">It is a long established fact that a reader will be distracted by the readable fact that a reader will be distracted by the readable fact that a reader will be distracted by the readable fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </aside>
                 
-                
-                <aside>
-                    <div class="content">
-                        <h1 class="font-niconne">2nd Section</h1>
-                        <p class="font-spinnaker">Gonna have a little bit of content in here!</p>
-                    </div>
-                </aside>
-                
-                <aside>
-                    <div class="content">
-                        <h1 class="font-niconne">3rd Section</h1>
-                        <p class="font-spinnaker">Gonna have a little bit of content in here!</p>
-                    </div>
-                </aside>
             </section>
 
             
@@ -83,7 +108,7 @@
             
             
             
-            <section class="two">
+            <section class="container-fluid" id="section-two">
                 <article>
                     <h1 class="font-niconne">Another Great Article!</h1>
                     <p class="font-spinnaker">Even more content gonna sit in here. Lets just randomly keep typing so <br> 
@@ -95,39 +120,42 @@
             
             
             
-<!------------------ SECTION FOUR ------------------------------------------------------------------>
+<!------------------ SECTION THREE ------------------------------------------------------------------>
             
             
             
             
-            <section class="three">
-                <h1 class="font-niconne">Bathing</h1>
-                <p class="font-spinnaker">Each Bath Includes:</p>
-                <ul class="font-spinnaker">
-                    <li>Coconut Clean or Hypoallergenic Shampoo</li>
-                    <li>Blow Dry</li>
-                    <li>Brush Out</li>
-                    <li>Nails Trimmed</li>
-                    <li>Ears Cleaned</li>
-                    <li>Pads Shaved (if requested)</li>
-                    <li>Sanitary Trim (if requested)</li>
-                    <li>Bow or Bandana</li>
-                    <li>Cologne</li>
-                </ul>
+            <section class="container-fluid" id="section-three">
+                <article class="col-lg-5 col-lg-offset-1">
+                    <h1 class="font-niconne">Bathing</h1>
+                    <p class="font-spinnaker">Each Bath Includes:</p>
+                    <ul class="font-spinnaker">
+                        <li>Coconut Clean or Hypoallergenic Shampoo</li>
+                        <li>Blow Dry</li>
+                        <li>Brush Out</li>
+                        <li>Nails Trimmed</li>
+                        <li>Ears Cleaned</li>
+                        <li>Pads Shaved (if requested)</li>
+                        <li>Sanitary Trim (if requested)</li>
+                        <li>Bow or Bandana</li>
+                        <li>Cologne</li>
+                    </ul>
+                </article>
+                <img class="col-lg-3 col-lg-offset-1 img-responsive" src="./IMAGES/DoggyStyleDog.png">
             </section>
     
-            
-            
-            
+                        
  <!------------------ FOOTER ----------------------------------------------------------------------->
-            
+            <div id="dogs-footer">
+                <img class="col-lg-8 col-lg-offset-2 img-responsive" src="./IMAGES/top_dogs.png">
+            </div>
             
             <footer>
-                &copy;DoggyStyleSalon
+                <p class="col-lg-12">&copy;DoggyStyleSalon</p>
             </footer> 
             
             
-        </div>
+    <!--  </div>  -->
     </body>
 </html>
 
